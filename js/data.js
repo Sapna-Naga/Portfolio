@@ -242,27 +242,12 @@ export const SITE = {
       }
     ],
     "Business Applications / Domains": [
-    { 
-      "name": "LegalTech", 
-      "icon": "assets/img/logos/legaltech.svg" 
-    },
-    { 
-      "name": "Healthcare", 
-      "icon": "assets/img/logos/healthcare.svg" 
-    },
-    { 
-      "name": "Insurance", 
-      "icon": "assets/img/logos/insurance.svg" 
-    },
-    { 
-      "name": "CivicTech / GovTech", 
-      "icon": "assets/img/logos/civictech-govtech.svg" 
-    },
-    { 
-      "name": "Supply Chain", 
-      "icon": "assets/img/logos/supply-chain.svg" 
-    }
-  ],
+    { "name": "LegalTech", "icon": "assets/img/logos/tech/legaltech.svg" },
+    { "name": "Healthcare", "icon": "assets/img/logos/tech/healthcare.svg" },
+    { "name": "Insurance", "icon": "assets/img/logos/tech/insurance.svg" },
+    { "name": "CivicTech / GovTech", "icon": "assets/img/logos/tech/civictech-govtech.svg" },
+    { "name": "Supply Chain", "icon": "assets/img/logos/tech/supply-chain.svg" }
+    ],
 
   "Leadership & Mentorship": [
     { 
