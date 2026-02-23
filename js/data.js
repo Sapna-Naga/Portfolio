@@ -251,19 +251,24 @@ export const SITE = {
 
   "Leadership & Mentorship": [
     { 
-      "name": "Technical Mentorship (ML Engineers & Data Scientists)" 
+      "name": "Technical Mentorship (ML Engineers & Data Scientists)",
+      "icon": "" 
     },
     { 
-      "name": "AI Model Development & Deployment Guidance" 
+      "name": "AI Model Development & Deployment Guidance" ,
+      "icon": "" 
     },
     { 
-      "name": "Technical Hiring & Candidate Evaluation" 
+      "name": "Technical Hiring & Candidate Evaluation" ,
+      "icon": "" 
     },
     { 
-      "name": "Cross-Functional AI Strategy Alignment" 
+      "name": "Cross-Functional AI Strategy Alignment" ,
+      "icon": "" 
     },
     { 
-      "name": "Business–AI Stakeholder Collaboration" 
+      "name": "Business - AI Stakeholder Collaboration" ,
+      "icon": "" 
     }
   ]
   },
