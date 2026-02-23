@@ -243,7 +243,47 @@ export const SITE = {
         "name": "LLMOps / MLOps Pipelines",
         "icon": "assets/img/logos/tech/docker.svg"
       }
-    ]
+    ],
+    "Business Applications / Domains": [
+    { 
+      "name": "LegalTech", 
+      "icon": "assets/img/logos/domains/legaltech.svg" 
+    },
+    { 
+      "name": "Healthcare", 
+      "icon": "assets/img/logos/domains/healthcare.svg" 
+    },
+    { 
+      "name": "Insurance", 
+      "icon": "assets/img/logos/domains/insurance.svg" 
+    },
+    { 
+      "name": "CivicTech / GovTech", 
+      "icon": "assets/img/logos/domains/civictech-govtech.svg" 
+    },
+    { 
+      "name": "Supply Chain", 
+      "icon": "assets/img/logos/domains/supply-chain.svg" 
+    }
+  ],
+
+  "Leadership & Mentorship": [
+    { 
+      "name": "Technical Mentorship (ML Engineers & Data Scientists)" 
+    },
+    { 
+      "name": "AI Model Development & Deployment Guidance" 
+    },
+    { 
+      "name": "Technical Hiring & Candidate Evaluation" 
+    },
+    { 
+      "name": "Cross-Functional AI Strategy Alignment" 
+    },
+    { 
+      "name": "Business–AI Stakeholder Collaboration" 
+    }
+  ]
   },
   "credentials": {
     "linkedinCerts": "https://www.linkedin.com/in/sapna-naga/details/certifications/"
