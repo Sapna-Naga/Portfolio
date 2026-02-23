@@ -242,7 +242,7 @@ export const SITE = {
       }
     ],
     "Business Applications / Domains": [
-    { "name": "LegalTech", "icon": "assets/img/logos/tech/legaltech.svg" },
+    { "name": "LegalTech", "icon": "/assets/img/logos/tech/legaltech.svg" },
     { "name": "Healthcare", "icon": "assets/img/logos/tech/healthcare.svg" },
     { "name": "Insurance", "icon": "assets/img/logos/tech/insurance.svg" },
     { "name": "CivicTech / GovTech", "icon": "assets/img/logos/tech/civictech-govtech.svg" },
