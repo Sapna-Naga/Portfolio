@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Sapna Naga — Lead AI Engineer portfolio" />
+  <title>Sapna Naga — Portfolio</title>
+
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/img/profile/sapna-headshot.png" />
+</head>
+
+<body>
+  <a class="skip" href="#AboutSapna">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand-spacer" aria-hidden="true"></div>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <!-- Tab names MUST exactly match section headings -->
+        <a href="#AboutSapna">About Sapna</a>
+        <a href="#Journey">Journey</a>
+        <a href="#Stack">Stack</a>
+        <a href="#Credentials">Credentials</a>
+        <a href="#Talks">Talks</a>
+        <a href="#Writings">Writings</a>
+        <a href="#Build">Build</a>
+        <a href="#Academic">Academic</a>
+        <a href="#ContactMe">Contact Me</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn hamburger" id="menuBtn" aria-label="Toggle navigation" type="button">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 7h14M5 12h14M5 17h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-grid">
+        <div class="hero-photo">
+          <img id="heroPhoto" src="assets/img/profile/sapna-headshot.png" alt="Sapna profile picture" />
+        </div>
+
+        <div class="hero-meta">
+          
+<div class="hero-name">
+  <h1 id="heroName">Sapna Naga</h1>
+  <div class="hero-role" id="heroRole">Lead AI Engineer</div>
+  <div class="hero-tagline" id="heroTagline">Engineering Intelligence: Bridging Minds and Machines</div>
+  <div class="hero-loc" id="heroLocation">Bengaluru, Karnataka, India</div>
+</div>
+
+<div class="hero-actions">
+            <div class="iconbar" id="heroSocial" aria-label="Social links"></div>
+            <!-- <a class="btn primary" id="resumeBtn" href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer" download>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3v10m0 0 4-4m-4 4-4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 14v4a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              Download Resume
+            </a> -->
+            <a class="btn primary resume-btn" id="resumeBtn" href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <!-- Document icon -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 3h6l4 4v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M14 3v4h4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M9 12h6M9 16h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              VIEWRESUME
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Sapna -->
+    <section class="section" id="AboutSapna">
+      <div class="section-head">
+        <h2>About Sapna</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="card prose">
+          <p id="aboutText"></p>
+        </div>
+
+        <aside class="card sideblock" aria-label="Reading now">
+          <a class="reading-link" id="goodreadsLink" target="_blank" rel="noopener noreferrer">
+          <h3>What Am I Reading?</h3>
+          <div class="reading">
+            <img id="readingImage" src="assets/img/profile/reading now.jpeg" alt="Reading cover" />
+            <div>
+              <strong id="readingTitle"></strong>
+              <span id="readingAuthor"></span>
+            </div>
+          </div>
+                  </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Journey -->
+    <section class="section" id="Journey">
+      <div class="section-head">
+        <h2>Journey</h2>
+      </div>
+
+      <div class="slider cardless" data-slider="journey">
+  <button class="sbtn prev" id="journeyPrev" aria-label="Previous" type="button">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="sviewport">
+    <div class="strack" id="journeyTrack" aria-label="Journey slides"></div>
+  </div>
+
+  <button class="sbtn next" id="journeyNext" aria-label="Next" type="button">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="sdots" id="journeyDots" aria-label="Journey pagination"></div>
+</div>
+</section>
+
+    <!-- Stack -->
+    <!-- <section class="section" id="Stack">
+      <div class="section-head">
+        <h2>Stack</h2>
+      </div>
+
+      <div class="stack-grid" id="stackRoot" aria-label="Tech stack"></div>
+    </section> -->
+    <section class="section" id="Stack">
+      <div class="section-head">
+      <h2>Stack</h2>
+    </div>
+
+    <!-- Tabs -->
+    <div class="stack-tabs" id="stackTabs" role="tablist" aria-label="Stack categories"></div>
+
+    <!-- Active tab content -->
+    <div class="card stack-panel" id="stackPanel" role="tabpanel" aria-label="Stack items"></div>
+    </section>
+
+    <!-- Credentials -->
+    <section class="section" id="Credentials">
+      <div class="section-head">
+        <h2>Credentials</h2>
+      </div>
+
+      <div id="credentialsSlot"></div>
+    </section>
+
+    <!-- Talks -->
+    <section class="section" id="Talks">
+      <div class="section-head">
+        <div>
+          <h2>Talks</h2>
+          <div class="counter" id="talksCount" aria-label="Total events">
+            <span class="counter-label">Events</span>
+            <span class="counter-value">0</span>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="ctrl" data-dir="prev" aria-label="Scroll left" type="button">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M14 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="ctrl" data-dir="next" aria-label="Scroll right" type="button">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel">
+        <div class="slider" data-slider="talks">
+  <button class="sbtn prev" id="talksPrev" aria-label="Previous" type="button">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="sviewport"><div class="strack" id="talksTrack"></div></div>
+  <button class="sbtn next" id="talksNext" aria-label="Next" type="button">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="sdots" id="talksDots"></div>
+</div>
+      </div>
+    </section>
+
+    <!-- Writings -->
+    <section class="section" id="Writings">
+      <div class="section-head">
+        <div>
+          <h2>Writings</h2>
+          <div class="counter" id="writingsCount" aria-label="Total Blogs/Articles/Publications">
+            <span class="counter-label">Writings</span>
+            <span class="counter-value">0</span>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="ctrl" data-dir="prev" aria-label="Scroll left" type="button">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M14 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="ctrl" data-dir="next" aria-label="Scroll right" type="button">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel">
+        <div class="slider" data-slider="writings">
+  <button class="sbtn prev" id="writingsPrev" aria-label="Previous" type="button">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="sviewport"><div class="strack" id="writingsTrack"></div></div>
+  <button class="sbtn next" id="writingsNext" aria-label="Next" type="button">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="sdots" id="writingsDots"></div>
+</div>
+      </div>
+    </section>
+
+    <!-- Build -->
+    <section class="section" id="Build">
+      <div class="section-head">
+        <div>
+          <h2>Build</h2>
+          <div class="counter" id="buildsCount" aria-label="Total Projects">
+            <span class="counter-label">Projects</span>
+            <span class="counter-value">0</span>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="ctrl" data-dir="prev" aria-label="Scroll left" type="button">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M14 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="ctrl" data-dir="next" aria-label="Scroll right" type="button">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel">
+        <div class="scroller" id="buildsScroller" aria-label="Builds carousel"></div>
+      </div>
+    </section>
+
+    <!-- Academic -->
+    <section class="section" id="Academic">
+      <div class="section-head">
+        <h2>Academic</h2>
+      </div>
+
+      <div class="timeline academic-line" id="academicsRoot" aria-label="Academic timeline"></div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="section" id="ContactMe">
+      <div class="section-head">
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="contact-single">
+        <div class="card contact-card">
+          <h3>Send a message</h3>
+          <form id="contactForm">
+            <div class="field">
+              <label for="cName">Name</label>
+              <input class="input" id="cName" name="name" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="cEmail">Email</label>
+              <input class="input" id="cEmail" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="cMsg">Message</label>
+              <textarea id="cMsg" name="message" required></textarea>
+            </div>
+
+            <div class="contact-actions">
+              <button class="btn primary" type="submit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 12l16-8-7 16-2-6-7-2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Send
+              </button>
+
+              <a class="btn" id="callBtn" href="#">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.06a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Call
+              </a>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="iconbar" id="footerSocial" aria-label="Footer social links"></div>
+      <div class="footnote">© <span id="year"></span> Sapna Naga</div>
+    </div>
+  </footer>
+
+  <button class="toTop" id="toTop" aria-label="Back to top" type="button">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 5l-7 7m7-7 7 7M12 5v14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
