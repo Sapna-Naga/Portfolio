@@ -233,37 +233,34 @@ export const SITE = {
     "AI/ML Ecosystem": [
       {
         "name": "Large Language Models",
-        "icon": "assets/img/logos/tech/openai.svg"
       },
       {
         "name": "AI Agents",
-        "icon": "assets/img/logos/tech/openrouter.svg"
       },
       {
         "name": "LLMOps / MLOps Pipelines",
-        "icon": "assets/img/logos/tech/docker.svg"
       }
     ],
     "Business Applications / Domains": [
     { 
       "name": "LegalTech", 
-      "icon": "assets/img/logos/domains/legaltech.svg" 
+      "icon": "assets/img/logos/legaltech.svg" 
     },
     { 
       "name": "Healthcare", 
-      "icon": "assets/img/logos/domains/healthcare.svg" 
+      "icon": "assets/img/logos/healthcare.svg" 
     },
     { 
       "name": "Insurance", 
-      "icon": "assets/img/logos/domains/insurance.svg" 
+      "icon": "assets/img/logos/insurance.svg" 
     },
     { 
       "name": "CivicTech / GovTech", 
-      "icon": "assets/img/logos/domains/civictech-govtech.svg" 
+      "icon": "assets/img/logos/civictech-govtech.svg" 
     },
     { 
       "name": "Supply Chain", 
-      "icon": "assets/img/logos/domains/supply-chain.svg" 
+      "icon": "assets/img/logos/supply-chain.svg" 
     }
   ],
 
